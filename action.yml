@@ -1,0 +1,5 @@
+name: 'Buildozer Build'
+description: 'a rule to build a Android build in a container using buildozer'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
